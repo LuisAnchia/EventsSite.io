@@ -1,0 +1,34 @@
+body{
+    box-sizing: border-box;
+    
+}
+.event-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  .event-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+
+img{
+    height: 29.5%;
+  }
+
+  .tab-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7%;
+    list-style: none;
+    background-color: black;
+    padding: 3% 3% 3% 3%;
+    font-size: 2rem;
+
+}
+
+.tab-nav a {
+    color: white;
+    text-decoration: none;
+}
